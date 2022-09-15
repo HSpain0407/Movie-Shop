@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="images/favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Why did i have to add this to remove super wideness inline > bootstrap parameters set?? -->
+    <!-- how can i get the background to stay centered -->
+    <!-- how can i get my container div to alight right -->
+    <div class="login">
+        <form class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error">Incorrenct username/password</div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message">This is an error message</div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password">
+                <div class="form__input-error-message">This is an error message</div>
+            </div>
+        
+            <p class="form__text">
+                <button type="button" class="btn btn-primary btn form__button"  type="submit">Sign-in</button>
+                <button type="button" class="btn btn-success" >
+                    <a class= "form__link" style="font-size: 16px; color: white;" href="./" id="linkCreateAccount">Sign-Up</a>
+                </button>
+                <button type="button" class="btn btn-danger" >
+                    <a href="#" class="form__link" style="font-size: 16px; color: white;" href="./" id="linkCreateAccount">Forgot Password?</a>
+                </button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;   
+  height: 100vh;
+  margin: 0;
+  font-size: 18px;
+  background-image: url(../images/loginbgrnd.png);
+  background-size:cover ;
+  background-position: center;
+}
+
+  
+
+  .login{
+    float: right;
+    height: 600px;
+    max-height: 600px;
+    width: 400px;
+    max-width: 400px;
+    margin: 2rem 2rem auto auto;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 0 40px rgba(0,0,0,00.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+  }
